@@ -1,0 +1,21 @@
+h1 {text-align:center; font-size:5em; font-family:"Lucida Console", Monaco, monospace}
+h2 {text-align:center; font-size:4em}
+p {text-align:left; font-size:2em}
+h1 .img, h2 .img, p .img {height:2ex; width:auto}
+img:not(.img):not(.table) {max-width:100%; width:100%; height:auto}
+table {text-align:center}
+/*vew not used but it is nice to have it*/
+#vew0 {background-color:rgb(255,255,255); background-color:rgba(255,255,255,1.0)}
+#vew9 {background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.9)}
+#vew8 {background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.8)}
+#vew7 {background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.7)}
+#vew6 {background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.6)}
+#vew5 {background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.5)}
+#vew4 {background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.4)}
+#vew3 {background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.3)}
+#vew2 {background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.2)}
+#vew1 {background-color:rgb(255,255,255); background-color:rgba(255,255,255,0.1)}
+.tooltip {position: relative; display: inline-block; border-bottom: 1px dotted black}/*If you want dots under the hoverable text*/
+.tooltip .tooltiptext {visibility: hidden; width: 120px; background-color: rgb(0,0,0); background-color: rgba(0,0,0,.8); color: #fff; text-align: center; padding: 5px 0; border-radius: 6px;/* Position the tooltip text*/ position: absolute; z-index: 1}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {visibility: visible}

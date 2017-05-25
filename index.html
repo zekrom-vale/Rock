@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Home
+        </title>
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="common.css">
+        <style>
+            div:not(.nbar):not(.down):not(.but):not(.cont) {width:45%; padding:0; border: 7px solid rgba(0,0,0,0); margin:calc((100% - (2 * 45%) - (4 * 7px))/4); float:left}
+/*(100% - (Q * W) - (2 * Q * b)) / (2 * Q) = M
+Q=Quantity
+W=Width in %
+b=border width in px
+M=Margin width*/
+            div:hover:not(.nbar):not(.down):not(.but):not(.cont) {border: 7px solid blue}
+            div img:not(.nbar):not(.down):not(.but):not(.cont) {width:100%; height:700px}
+            body {background-color:black}
+            h1 {color:lime; text-align:center; font-size:6em; margin:0; padding:0}
+            h2, h3 {color:white; text-align:center;}
+            h2 {font-size:3em;}
+            h3 {font-size:2em;}
+            iframe {margin: 0 100px}
+/*auto does not work);*/
+        </style>
+    </head>
+    <body>
+        <nav class="nbar">
+            <div class="down">
+                <button class="but">
+                    Home
+                </button>
+                <div class="cont">
+                    <a href="index.html">Home</a>
+                    <a href="genre.html">Genre</a>
+                    <a href="Members.html">Members</a>
+                    <a href="Discography.html">Discography</a>
+                </div>
+            </div>
+            <div class="down">
+                <button class="but">
+                    DEVO 
+                </button>
+                <div class="cont">
+                   <a href="http://www.clubdevo.com/" target="_blank">Home *Posibly Mature*</a>
+                    <a href="http://www.clubdevo.com/news" target="_blank">News</a>
+                    <a href="http://www.clubdevo.com/bio" target="_blank">Bio</a>
+                    <a href="http://officialdevomerchandise.bigcartel.com/" target="_blank">Merch</a>
+                    <a href="http://www.clubdevo.com/tour" target="_blank">Tour</a>
+                    <a href="http://www.clubdevo.com/photos" target="_blank">Photos</a>
+                    <a href="http://www.clubdevo.com/videos" target="_blank">Videos</a>
+                    <a href="http://www.clubdevo.com/music" target="_blank">Music</a>
+                    <a href="http://www.clubdevo.com/clubdevo-forum" target="_blank">Forum</a>
+                    <a href="http://www.clubdevo.com/contact" target="_blank">Contact</a>
+                </div>
+            </div>
+            
+        </nav>
+        <h1 style="font-size:4em">
+            Welcome to my Band website. 
+            <a href="http://www.clubdevo.com/photos" target="blank">
+                <img class="img" src="https://pbs.twimg.com/profile_images/1826801653/Twitter-RedDome-Logo_400x400.jpg" alt="DEVO"/>
+            </a>
+        </h1>
+        <h2>
+            Talking all about my favorite band, DEVO.
+        </h2>
+		<h3>
+			I like many of their songs like "Wip it." 
+		</h3>
+<!--Can't use youtube!
+height="auto||100%" Does not work!
+how to center this!!!4 oj4it4owoatiiohr axcb ndffdfnhrrhgr-->
+		<iframe src="http://media.mtvnservices.com/embed/mgid:uma:video:mtv.com:8485/cp~series%3D2216%26id%3D1608476%26vid%3D8485%26instance%3Dmtv%26uri%3Dmgid%3Auma%3Avideo%3Amtv.com%3A8485" width="1024" height="576"></iframe>
+		<div>
+                <a href="http://media.nbcmiami.com/images/1200*675/devo1+722.jpg" target="_blank">
+                    <img src="http://media.nbcmiami.com/images/1200*675/devo1+722.jpg" alt="Devo" width="600px" height="400px"/>
+                </a>
+        </div>
+        <div>
+            <a href="https://i.guim.co.uk/img/media/125027ae9a099c8a77d5515934b42890106e13c5/0_0_2336_1402/master/2336.jpg?w=620&q=55&auto=format&usm=12&fit=max&s=635516c20a285fde7a68f282b1745831" target="_blank">
+                <img src="https://i.guim.co.uk/img/media/125027ae9a099c8a77d5515934b42890106e13c5/0_0_2336_1402/master/2336.jpg?w=620&q=55&auto=format&usm=12&fit=max&s=635516c20a285fde7a68f282b1745831" alt="Devo_2" width="600" height="400"/>
+            </a>
+        </div>
+        <div>
+            <a href="http://assets.rollingstone.com/assets/images/story/alan-myers-devo-drummer-on-whip-it-dies-20130626/devo-624-1372251668.jpg" target="_blank">
+                <img src="http://assets.rollingstone.com/assets/images/story/alan-myers-devo-drummer-on-whip-it-dies-20130626/devo-624-1372251668.jpg" alt="Devo_3" width="600" height="400"/>
+            </a>
+        </div>
+        <div>
+            <a href="https://alanbumstead.files.wordpress.com/2012/03/img_1475.jpg" target="_blank">
+                <img src="https://alanbumstead.files.wordpress.com/2012/03/img_1475.jpg" alt="Devo_4" width="600" height="400"/>
+            </a>
+        </div>
+    </body>
+</html>
+<!--
+Test code just to save...
+
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0,0,255,1);
+}
+div:hover {-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color: rgba(0,0,0,0);}
+    100% {background-color: rgba(0,0,255,1);}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: rgba(0,0,0,0);}
+    100% {background-color: rgba(0,0,255,1);}
+}
+</style>
+</head>
+<body>
+
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+<div></div>
+
+</body>
+</html>
+-->

@@ -1,0 +1,17 @@
+button.but {width:250px; background-color:#a7d2dc; color:white; font-weight:bold; padding:16px; font-size:1.6em; border:none; cursor:default; -webkit-transition: width 2s; -moz-transition:width 2s; -o-transition:width 2s; /* Safari 3.1 to 6.0 */transition: width 2s; border-radius: 8px}
+/*How can I get the .cont to expand/ contract with the .but and .down*/
+.down:hover button {background-color:rgb(19,19,4); background-color:rgba(19,19,4,0.9); color:#a7d2dc; width:500px}
+.down:hover .cont {width:500px; font-size:1.4em; background-color:blue}
+.down {position:relative; display:inline-block}
+.down:not(:hover) .cont {width:0; font-size:0; background-color:rgba(0,0,0,0)}
+/*:not(:hover) saved me!!!*/
+.down .cont {-webkit-transition: width 1.9s; -moz-transition:width 1.9s; -o-transition:width 1.9s; /* Safari 3.1 to 6.0 */transition: width 1.9s}
+/*The seperation of the 2 above is necisary!  Finaly It Works!!!!*/
+.cont {text-align:left; font-weight:bold; position:absolute; border-radius: 8px}
+/*Why is the content ignoring the transition?  Is the triger that is controling the visability not compatable?--- Yes it was.*/
+.down:hover .cont a {color:lime; background-color:blue; padding:12px 16px; text-decoration:none; display:block; border-radius: 8px}
+nav {background-color:blue; border-radius: 8px}
+.down:hover .cont a:hover {background-color:lime; color:blue}
+.down:hover .cont a:active {color:black}
+.down:hover .cont a:visited {color:red}
+.down:hover .cont {display: block}
